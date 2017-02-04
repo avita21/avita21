@@ -8,3 +8,11 @@ body {
         background-repeat: no-repeat; 
         background-attachment: fixed;    
 	}
+
+.title {
+        	font-family: {TitleFont}, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+        	font-weight: bold;
+        }
+
+
+
