@@ -9,10 +9,10 @@ body {
         background-attachment: fixed;    
 	}
 
-.title {
+#title{
         	font-family: {TitleFont}, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
         	font-weight: bold;
-        }
+      }
 
 
 
