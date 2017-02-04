@@ -1,0 +1,10 @@
+
+
+body {
+        background-image: url(http://www.waves-rsp.org/img/wave.gif);
+        background-size: Cover; 
+        background-position:center top;
+    	/* delete these lines if you want to tile an image */
+        background-repeat: no-repeat; 
+        background-attachment: fixed;    
+	}
