@@ -1,17 +1,48 @@
-
+/* CSS Style */
 
 body {
         background-image: url(http://www.waves-rsp.org/img/wave.gif);
         background-size: Cover; 
         background-position:center top;
-    	/* delete these lines if you want to tile an image */
         background-repeat: no-repeat; 
         background-attachment: fixed;    
 	}
 
-title{
-        	font-family: "Helvetica Neue";
-        	font-weight: bold;
-        	font-size:56px;
+@font-face {
+	font-family:"Kingc";
+	src: url('KINGC___.ttf');
+}
+
+
+h1	{
+        font-family: "Kingc";
+        font-weight: bold;
+        font-size:56px;
+        text-align: center;
+        text-shadow: 3px 2px aqua;
+        color:darkblue;
+      	background: rgba(0, 206, 209, .30);
+  	}
+
+#mail{
+		font-family: "Kingc";
+        font-weight: bold;
+        font-size:36px;
+        text-align: center;
+        text-shadow: 5px 5px midnightblue;
+        color:lightCyan;
+      	background: rgba(70, 130, 180, .70);
       }
 
+h2 {
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 34px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	color:OrangeRed;
+	text-shadow: 3px 2px yellow;
+    background: rgba(255, 215, 0, .70);
+    padding: 15px 10px 15px 10px;
+}
