@@ -4,8 +4,10 @@ body {
         background-image: url(http://www.waves-rsp.org/img/wave.gif);
         background-size: Cover; 
         background-position:center top;
-        background-repeat: no-repeat; 
-        background-attachment: fixed;    
+        background-repeat: repeat-y repeat-x; 
+        background-attachment: fixed; 
+        bottom:0px;
+        top:0px;
 	}
 
 @font-face {
@@ -13,6 +15,9 @@ body {
 	src: url('KINGC___.ttf');
 }
 
+#content {
+	margin-top: 200px;
+}
 
 h1	{
         font-family: "Kingc";
@@ -22,27 +27,110 @@ h1	{
         text-shadow: 3px 2px aqua;
         color:darkblue;
       	background: rgba(0, 206, 209, .30);
+      	position:fixed;
+      	z-index:100000;
+      	width:100%;
+      	top:0px;
+      	height:50px;
+      	margin:0px auto;
+      	padding-bottom: 20px;
   	}
 
 #mail{
 		font-family: "Kingc";
-        font-weight: bold;
+        font-weight: bolder;
         font-size:36px;
         text-align: center;
         text-shadow: 5px 5px midnightblue;
         color:lightCyan;
       	background: rgba(70, 130, 180, .70);
+      	position:fixed;
+      	z-index:100000;
+      	width:100%;
+      	top:100px;
+      	height:50px;
+      	margin:0px auto;
+      	padding-bottom: 10px;
       }
 
 h2 {
-	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-family: consolas;
 	font-size: 34px;
 	font-style: normal;
+	font-weight: bolder;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 15.4px;
+	text-indent: 80px;
 	color:OrangeRed;
 	text-shadow: 3px 2px yellow;
-    background: rgba(255, 215, 0, .70);
+    background: rgba(255, 215, 0, .50);
+    padding: 15px 10px 1px 10px;
+}
+
+h3 {
+	font-family: consolas;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 40px;
+	color:CornSilk;
+	text-shadow: 1px 2px plum;
+    background: rgba(25, 26, 112, .50);
     padding: 15px 10px 15px 10px;
+}
+
+.myh3 {
+	font-family: consolas;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 40px;
+	color:SteelBlue;
+	text-shadow: 2px 2px powderblue;
+    background: rgba(0, 191, 255, .30);
+    padding: 15px 10px 15px 10px;
+    }
+
+.myBulletsOne{
+	font-family: consolas;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 40px;
+	color:Olive;
+	text-shadow: 2px 2px YellowGreen;
+    background: rgba(50, 102, 0, 0.3);
+    padding: 0px 15px 0px 10px;
+    }
+
+.myBulletsTwo{
+font-family: consolas;
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+font-variant: normal;
+font-weight: 500;
+line-height: 40px;
+color:MediumSeaGreen;
+text-shadow: 1px 2px MediumSpringGreen;
+background: rgba(0, 139, 139, 0.3);
+padding: 0px 15px 0px 10px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+    color: orangeRed;
 }
