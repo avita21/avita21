@@ -22,12 +22,12 @@ body {
 
 @font-face {
   font-family:"Rlyehian";
-  src: url("Rlyehian.TTF");
+  src: url("Rlyehian.ttf");
 }
 
 @font-face {
   font-family:"RlyehianBase";
-  src: url("RlyehianBase.TTF");
+  src: url("RlyehianBase.ttf");
 }
 
 #content {
