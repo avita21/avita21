@@ -10,9 +10,24 @@ body {
         top:0px;
 	}
 
+.font-bg {
+        background-image: url(https://online.fliphtml5.com/mrmxy/lcpz/files/large/101.jpg?1572364976);
+        background-size: contain 
+}
+
 @font-face {
 	font-family:"Kingc";
 	src: url("KINGC___.TTF");
+}
+
+@font-face {
+  font-family:"Rlyehian";
+  src: url("Rlyehian.TTF");
+}
+
+@font-face {
+  font-family:"RlyehianBase";
+  src: url("RlyehianBase.TTF");
 }
 
 #content {
@@ -158,4 +173,21 @@ img {
     width:200%;
     margin-top: 15px;
     margin-left: 500px;
+}
+.Rlyehian {
+    font-family: "Rlyehian";
+    font-size: 550%;
+    text-rendering: optimizeLegibility;
+    font-variant-ligatures: discretionary-ligatures;
+}
+.Rlyehian-Base {
+    font-family: "RlyehianBase";
+}
+
+.center {
+  margin: auto;
+  max-width: 8.4em;
+  line-height: 1.2em;
+  text-align: center;
+  word-spacing: 100vw;
 }
